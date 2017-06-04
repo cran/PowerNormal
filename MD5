@@ -1,0 +1,17 @@
+ae265b0b1e07f743d4294d55a3681ff9 *DESCRIPTION
+3a857c5ed14080533041c2d922dabb97 *NAMESPACE
+55d20b050684092c937e432f976a758e *R/GerarPN.R
+a81f6d1d632a1b59bfc6e5ccd84f405d *R/ICpn.R
+057b1394649c6a78db8eefd2b5f727b3 *R/biespn.R
+9a29ee471dab4253341957f9c6effc6b *R/densitypn.R
+d3dca7dfffa885449299071806d8faee *R/estimatepn.R
+559778110031b2f192982b805cc78eda *R/histogrampn.R
+5847c727c849c869ed437aac4dfdfee0 *R/linespn.R
+32c62387fb6a048a3b559d0aeab74e5a *R/utils.R
+12de498dcefd658f221b73453aeabe40 *man/pn.CI.Rd
+d70fb6ed77dd402737ccf756aa8da2c9 *man/pn.bias.Rd
+8d4d91d0c9a66d5e37c2653f8b91ca0d *man/pn.dens.Rd
+84659cb451dd768fce5473f4da72b9e9 *man/pn.hist.Rd
+70ff6c89e765171d8c4eec834bcf05a5 *man/pn.lines.Rd
+b7a49f31872b7d997604abc5928e72ae *man/pn.mle.Rd
+b1faf7a1233052734c04e13c2500510e *man/rpn.Rd

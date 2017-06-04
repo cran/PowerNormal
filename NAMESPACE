@@ -1,0 +1,4 @@
+exportPattern("^[^\\.]")
+importFrom("stats", "dnorm", "pnorm", "qchisq", "qnorm", "runif")
+importFrom("graphics", "hist", "lines", "plot")
+#exportPattern("^[[:alpha:]]+")

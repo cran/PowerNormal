@@ -2,7 +2,7 @@
 dpn <- function(x, alpha) {
 if (alpha <= 0 )
  stop("Error: The power parameter 'alpha' must be greater than zero")
-.pn.d(x, alpha )
+pn.d(x, alpha )
 }
 
 ppn <- function(q, alpha) {

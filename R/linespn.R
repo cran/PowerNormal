@@ -19,9 +19,9 @@ pn.lines <- function(x, model, log=FALSE, ...){
 
   lim <- -9
   xx=seq(min(y),max(y),(max(y)-min(y))/1000)
-  if(!log) lines(xx,.pn.d(xx, alpha), ...)
+  if(!log) lines(xx,pn.d(xx, alpha), ...)
   else{
-    aux <- log(.pn.d(xx, alpha))
+    aux <- log(pn.d(xx, alpha))
     aux[which(aux < lim)] <- NA
     lines(xx,aux,...)
   }

@@ -34,9 +34,9 @@ pn.dens <- function(x, model, log=FALSE, ylab=NULL, xlab = NULL, main = NULL, ..
   lim <- -9
 
   xx=seq(min(dados),max(dados),(max(dados)-min(dados))/1000)
-  if(!log) plot(xx,.pn.d(xx, alpha ),type="l",ylab=ylab, xlab = xlab, main = main, ...)
+  if(!log) plot(xx,pn.d(xx, alpha ),type="l",ylab=ylab, xlab = xlab, main = main, ...)
   else{
-    aux <- log(.pn.d(xx, alpha))
+    aux <- log(pn.d(xx, alpha))
     aux[which(aux < lim)] <- NA
     plot(xx,aux,type="l",ylab=ylab, xlab = xlab, main = main, ...)
   }

@@ -13,7 +13,7 @@
 pn.mle <-  function(x){
 n <- length(x)
 alpha_est <- -n/(sum(log(pnorm(x))))
-      list(alpha=alpha_est,loglik = .lv_pn(alpha_est,x))
+      list(alpha=alpha_est,loglik = lv_pn(alpha_est,x))
 }
 
 

@@ -1,4 +1,14 @@
-exportPattern("^[^\\.]")
 importFrom("stats", "dnorm", "pnorm", "qchisq", "qnorm", "runif")
 importFrom("graphics", "hist", "lines", "plot")
-#exportPattern("^[[:alpha:]]+")
+
+
+export(pn.bias,
+       pn.IC,
+       pn.dens,
+       pn.hist,
+       pn.lines,
+       pn.mle,
+       rpn,
+       dpn,
+       qpn,
+       ppn)

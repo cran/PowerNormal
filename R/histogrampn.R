@@ -24,5 +24,5 @@ pn.hist <- function(x, model, breaks=40, main=paste("Histogram of PN model fit")
   x <- dados
   hist(x, breaks = breaks,probability=T,main=main,...)
   xx=seq(min(dados),max(dados),(max(dados)-min(dados))/1000)
-  lines(xx,.pn.d(xx, alpha ),col= col.lines, lwd=lwd,lty=lty)
+  lines(xx,pn.d(xx, alpha ),col= col.lines, lwd=lwd,lty=lty)
 }

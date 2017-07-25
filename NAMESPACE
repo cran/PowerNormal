@@ -1,4 +1,4 @@
-importFrom("stats", "dnorm", "pnorm", "qchisq", "qnorm", "runif")
+importFrom("stats", "dnorm", "pnorm", "qchisq", "qnorm", "runif", "qgamma")
 importFrom("graphics", "hist", "lines", "plot")
 
 
@@ -11,4 +11,6 @@ export(pn.bias,
        rpn,
        dpn,
        qpn,
-       ppn)
+       ppn,
+       pn.bayes,
+       pn.ICred)

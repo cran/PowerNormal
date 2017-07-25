@@ -2,7 +2,7 @@
 % Please edit documentation in R/estimatepn.R
 \name{pn.mle}
 \alias{pn.mle}
-\title{Fit univariate PN distribution}
+\title{Fit univariate PN distribution (Classic)}
 \usage{
 pn.mle(x)
 }
